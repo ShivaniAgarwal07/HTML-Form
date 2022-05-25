@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="backend.php">
+    <h3>Tech Fiesta</h3>
+    <div>
+        Name: <input type="text" name="myName" >
+    </div>
+    <br>
+    <div>
+        Email: <input type="text" name="myEmail" >
+    </div>
+    <br>
+    <div>
+        DOB: <input type="date" name="date" >
+    </div>
+    <br>
+    <div>
+        Phone No: <input type="tel" name="myphone" >
+    </div>
+    <br>
+    <div>
+        Course: <input type="text" name="mycourse" >
+    </div>
+    <br>
+    <div>
+        <label for="branch">Branch:</label>
+        <select name="mybranch" id="branch">
+            <option value="cs">Computer Science Engg.</option>
+            <option value="me">Mechanical Engg. </option>
+            <option value="ee">Electrical Engg.</option>
+            <option value="ec">Electronics& Communication</option>
+            <option value="ce">Civil Engg.</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        Year Of Completion: <input type="number" name="year" >
+    </div> 
+    <br>
+    <div>
+        College: <input type="text" name="mycollege" >
+    </div>  
+    <br>
+    <div>
+        City: <input type="text" name="mycity" >
+    </div>
+    <br>
+    <div>
+        state: <input type="text" name="statename" >
+    </div>
+    <br>
+    <div>
+        Are You Eligible? <input type="checkbox" name="mycheckbox" >
+    </div>
+    <br>
+    <div>
+        Gender: Male: <input type="radio" name="mygender" > Female: <input type="radio" name="mygender" > Other: <input type="radio" name="mygender" >
+    </div>
+    <br>
+    <div>
+        Write Your Hobbies: <br> <textarea name="mytext" id="" cols="50" rows="5"></textarea>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+    </div>
+    </form>   
+</body>
+</html>
